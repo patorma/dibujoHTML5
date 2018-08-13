@@ -21,6 +21,11 @@ var c = canvas.getContext("2d");
 //c.strokeStyle = "green";
 //c.lineWidth = 20;
 //c.stroke();
+
+/*
+    FILL = RELLENO
+    STROKE = BORDE
+*/
 var w = canvas.width;
 var h = canvas.height;
 //alert(w+h+10);
@@ -31,5 +36,15 @@ c.lineTo(w*0.25,h*0.75);
 c.closePath();//cierra segmentos(une el primer segmento con el ultimo)
 c.strokeStyle = "red";
 c.lineWidth = 5;
+c.fillStyle = "yellow";
+c.fill();
 c.stroke();
 
+c.beginPath();
+c.moveTo(w/4,w/4);
+c.lineTo(250,0);
+c.lineTo(375,125);
+c.closePath();
+c.strokeStyle = "green";
+c.lineWidth = 5;
+c.stroke();
