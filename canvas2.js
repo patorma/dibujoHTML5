@@ -31,8 +31,11 @@ var h = canvas.height;
 
 //c.rect(x,y,w,h)
 
-c.rect(10,10,300,100);
-c.stroke();
+//c.rect(10,10,300,100);
+//c.stroke()//;
+//ver solo bordes
+//c.strokeRect(10,10,300,100);
+c.fillRect(10,10,300,100);
 //alert(w+h+10);
 /*c.beginPath();
 c.moveTo(w/2,h/2);
