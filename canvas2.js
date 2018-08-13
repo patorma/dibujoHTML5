@@ -28,8 +28,13 @@ var c = canvas.getContext("2d");
 */
 var w = canvas.width;
 var h = canvas.height;
+
+//c.rect(x,y,w,h)
+
+c.rect(10,10,300,100);
+c.stroke();
 //alert(w+h+10);
-c.beginPath();
+/*c.beginPath();
 c.moveTo(w/2,h/2);
 c.lineTo(w*0.75,h*0.75);
 c.lineTo(w*0.25,h*0.75);
@@ -47,4 +52,4 @@ c.lineTo(375,125);
 c.closePath();
 c.strokeStyle = "green";
 c.lineWidth = 5;
-c.stroke();
+c.stroke();*/
