@@ -29,13 +29,20 @@ var c = canvas.getContext("2d");
 var w = canvas.width;
 var h = canvas.height;
 
+/*Definir circunferencia
+c.arc(x,y,r,startAngle,endAngle,rotacion)
+*/
+var g = Math.PI *2;
+c.arc(w/2,h/2,200,0,g/2,true);//angulo de inicio pi y final 2pi por defecto es false
+c.stroke();
+
 //c.rect(x,y,w,h)
 
 //c.rect(10,10,300,100);
 //c.stroke()//;
 //ver solo bordes
 //c.strokeRect(10,10,300,100);
-c.fillRect(10,10,300,100);
+//c.fillRect(10,10,300,100);
 //alert(w+h+10);
 /*c.beginPath();
 c.moveTo(w/2,h/2);
