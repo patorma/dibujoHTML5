@@ -33,7 +33,8 @@ var h = canvas.height;
 c.arc(x,y,r,startAngle,endAngle,rotacion)
 */
 var g = Math.PI *2;
-c.arc(w/2,h/2,200,0,g/2,true);//angulo de inicio pi y final 2pi por defecto es false
+//c.arc(w/2,h/2,200,0,g*0.75,true);//angulo de inicio pi y final 2pi por defecto es false
+c.arc(w/2,h/2,200,g*0.25,g*0.75,true);//angulo de inicio pi y final 2pi por defecto es false
 c.stroke();
 
 //c.rect(x,y,w,h)
